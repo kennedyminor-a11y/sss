@@ -1,0 +1,65 @@
+body {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-align: center;
+  background: #ffe6f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: white;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0px 5px 20px rgba(0,0,0,0.1);
+}
+
+.cute-video {
+  display: block;         /* makes it behave like an image */
+  margin: 0 auto;         /* centers horizontally */
+  width: 180px;           /* 👈 adjust size here */
+  border-radius: 15px;    /* cute rounded corners */
+}
+
+
+h2 {
+  color: #ff66a3;
+  margin: 1rem 0;
+}
+
+.buttons {
+  margin-top: 1rem;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#yesBtn {
+  background-color: #ff99cc;
+  color: white;
+}
+
+#noBtn {
+  background-color: #cccccc;
+  color: black;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+#response {
+  margin-top: 1.5rem;
+  font-size: 1.2rem;
+  color: #ff3399;
+  font-weight: bold;
+}
